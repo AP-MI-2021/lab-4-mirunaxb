@@ -103,6 +103,11 @@ def test_invert_digits():
     assert invert_digits(-87) == -78
 
 def list_modified(lst):
+    '''
+    Modifica lista conform cerintei (ex.5)
+    :param lst: lista de numere intregi
+    :return: lista de numere intregi
+    '''
     rez= []
     for el in lst:
         if el <= 0:
